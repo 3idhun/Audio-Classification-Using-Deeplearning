@@ -1,2 +1,2 @@
 # Audio-processing-using-ML
-This repository contains different models and their code to analyse audio waveform.
+This is a model prepared to classify audio using deep learning.
