@@ -1,3 +1,7 @@
+'''
+An app is created to start and stop recording to analyse audio realtime and find the class which the audio corresponds to, in the dataset. The app is set to operate in PC.
+'''
+
 import os
 import numpy as np
 import librosa
