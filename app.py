@@ -30,14 +30,11 @@ def features_extractor(audio, sample_rate, n_mfcc=40):
         return None
 
 # Load the saved model
-saved_model_path = r'/home/midhun/Music/May09/Project/maymodel.keras'
+saved_model_path = r'path to model'#enter the path of model.keras
 model = load_model(saved_model_path)
 
 # Define the label encoder with the actual class names
-class_names = ["Hello", "achan", "alla", "amma", "athe", 
-               "chood", "enikku", "kettilla", "manazilayi", "nale", 
-               "nyan", "padikyua", "ponam", "vellam", "venam", 
-               "venda", "veshakunnu"]
+class_names = ['''Enter the labels of each class seperated by commas''']
 label_encoder = LabelEncoder()
 label_encoder.classes_ = np.array(class_names)
 
@@ -94,7 +91,7 @@ def classify_and_save_result():
         result_label.config(text=f"Error: {e}")
 
 # Function to save audio file with predicted class name
-def save_audio_file(predicted_class, audio, sample_rate, folder_path=r'/home/midhun/Music/May09/Project/recordings'):
+def save_audio_file(predicted_class, audio, sample_rate, folder_path=r'Enter the path to new folder'):
     try:
         if not os.path.exists(folder_path):
             os.makedirs(folder_path)
@@ -104,7 +101,7 @@ def save_audio_file(predicted_class, audio, sample_rate, folder_path=r'/home/mid
         print(f"Error in saving audio file: {e}")
 
 # Function to play audio corresponding to the predicted class
-def play_audio(predicted_class, folder_path=r'/home/midhun/Music/May09/Project/OutputAudio'):
+def play_audio(predicted_class, folder_path=r'Enter the path to new folder'):
     try:
         file_path = os.path.join(folder_path, f"{predicted_class}.mp3")
         pygame.mixer.init()
