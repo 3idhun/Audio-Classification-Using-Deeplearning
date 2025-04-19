@@ -1,3 +1,7 @@
+'''
+This program is used to test the dataset as a whole and map the labels according to the output.
+
+'''
 import os
 import numpy as np
 import librosa
@@ -17,7 +21,7 @@ def extract_features(file_path, expected_shape=(None, 169)):
     return features
 
 
-# Function to classify audio using the saved ViT model
+# Function to classify audio using the saved model
 def classify_audio(audio_file, model):
     # Extract features from audio file
     features = extract_features(audio_file)
@@ -28,27 +32,14 @@ def classify_audio(audio_file, model):
     return predicted_label
 
 # Define paths
-model_path = r'C:\Users\midhu\Music\May09\Project\models\maymodel3.keras'
-audio_folder_path = r'C:\Users\midhu\Music\April 16\Dataset\test'  # Replace with the path to your audio folder
+model_path = r'path to model'
+audio_folder_path = r'path to test audio folder'  # Replace with the path to your audio folder
 
-# Load the saved ViT model
+# Load the saved model
 model = load_model(model_path)
 
 # Define label mapping
-label_mapping = {
-    0: 'Hello',
-    1: 'achan',
-    2: 'alla',
-    3: 'amma',
-    4: 'athe',
-    5: 'enikku',
-    6: 'manazilayi',
-    7: 'nyan',
-    8: 'padikyua',
-    9: 'vellam',
-    10: 'venam',
-    11: 'veshakunnu'
-}
+label_mapping = { '''Enter the labels of each audio here''' }
 
 # Initialize a dictionary to store predictions for each class
 class_predictions = {class_name: [] for class_name in label_mapping.values()}
