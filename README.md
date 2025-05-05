@@ -49,7 +49,6 @@ During training, the model's accuracy, loss, and other evaluation metrics are vi
 ## 📜 License
 This project is licensed under the LGPL-2.1 License. See the LICENSE file for more details.
 
-## 🚀 Getting Started
 
 ### 1. Clone the Repository
 
