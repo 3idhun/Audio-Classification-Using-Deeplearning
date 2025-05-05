@@ -32,7 +32,7 @@ Audio-processing-using-ML/
 ├── LICENSE # License information (LGPL-2.1)
 
 
-##🧠 Model Details
+## 🧠 Model Details
 Input: Spectrograms or MFCCs from .wav files
 
 Architecture: Convolutional Neural Network (CNN)
@@ -43,10 +43,10 @@ Output: Predicted class labels for audio clips
 
 The model was trained to classify audio based on features like frequency patterns and waveforms.
 
-##📊 Performance
+## 📊 Performance
 During training, the model's accuracy, loss, and other evaluation metrics are visualized in the provided Jupyter notebook. The model's performance can also be assessed on new audio data using the app.py or testing_folder.py scripts.
 
-##📜 License
+## 📜 License
 This project is licensed under the LGPL-2.1 License. See the LICENSE file for more details.
 
 ## 🚀 Getting Started
