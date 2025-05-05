@@ -31,7 +31,23 @@ Audio-processing-using-ML/
 ├── README.md # Project documentation
 ├── LICENSE # License information (LGPL-2.1)
 
----
+
+##🧠 Model Details
+Input: Spectrograms or MFCCs from .wav files
+
+Architecture: Convolutional Neural Network (CNN)
+
+Framework: TensorFlow / Keras
+
+Output: Predicted class labels for audio clips
+
+The model was trained to classify audio based on features like frequency patterns and waveforms.
+
+##📊 Performance
+During training, the model's accuracy, loss, and other evaluation metrics are visualized in the provided Jupyter notebook. The model's performance can also be assessed on new audio data using the app.py or testing_folder.py scripts.
+
+##📜 License
+This project is licensed under the LGPL-2.1 License. See the LICENSE file for more details.
 
 ## 🚀 Getting Started
 
@@ -52,22 +68,6 @@ jupyter notebook model_training_code.ipynb
 python app.py path/to/audio.wav
 
 python testing_folder.py path/to/folder/
-'''
 
-##🧠 Model Details
-Input: Spectrograms or MFCCs from .wav files
 
-Architecture: Convolutional Neural Network (CNN)
-
-Framework: TensorFlow / Keras
-
-Output: Predicted class labels for audio clips
-
-The model was trained to classify audio based on features like frequency patterns and waveforms.
-
-📊 Performance
-During training, the model's accuracy, loss, and other evaluation metrics are visualized in the provided Jupyter notebook. The model's performance can also be assessed on new audio data using the app.py or testing_folder.py scripts.
-
-📜 License
-This project is licensed under the LGPL-2.1 License. See the LICENSE file for more details.
 
