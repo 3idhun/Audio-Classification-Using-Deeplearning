@@ -23,13 +23,21 @@ The objective of this project is to build a machine learning model capable of re
 ## 🗂 File Structure
 
 Audio-processing-using-ML/
+
 ├── app.py # Script to test single audio files
+
 ├── dataset_audio_amplify.py # Script for dataset preprocessing and augmentation
+
 ├── model_training_code.ipynb # Jupyter notebook for model training
+
 ├── model_testing_code.keras # Trained Keras model file
+
 ├── testing_folder.py # Script to test a folder of audio files
+
 ├── README.md # Project documentation
+
 ├── LICENSE # License information (LGPL-2.1)
+
 
 
 ## 🧠 Model Details
