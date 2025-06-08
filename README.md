@@ -10,7 +10,7 @@ The objective of this project is to build a machine learning model capable of re
 
 ---
 
-## 🧱 Key Features
+## 🧱 Key Features          
 
 - Preprocessing and augmentation of audio files (e.g., amplification)
 - Conversion of audio signals into spectrograms or MFCCs
