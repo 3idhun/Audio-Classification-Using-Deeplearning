@@ -20,7 +20,7 @@ The objective of this project is to build a machine learning model capable of re
 
 ---
 
-## 🗂 File Structure
+## 🗂 File Structure     
 
 Audio-processing-using-ML/
 
