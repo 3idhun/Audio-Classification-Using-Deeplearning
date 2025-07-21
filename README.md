@@ -6,7 +6,7 @@ This project demonstrates how to classify audio data using deep learning techniq
 
 ## 📘 Description           
 
-The objective of this project is to build a machine learning model capable of recognizing and classifying audio samples. The model is trained on a labeled dataset of audio files, where each audio clip corresponds to a specific class. The project uses a combination of audio signal processing and neural network techniques to achieve this goal. 
+The objective of this project is to build a machine learning model capable of recognizing and classifying audio samples. The model is trained on a labeled dataset of audio files, where each audio clip corresponds to a specific class. The project uses a combination of audio signal processing and neural network techniques to achieve this goal.    
 
 ---
 
