@@ -72,7 +72,7 @@ python dataset_audio_amplify.py
 
 jupyter notebook model_training_code.ipynb
 
-python app.py path/to/audio.wav
+python app.py path/to/audio.wav   
 
 python testing_folder.py path/to/folder/
 
